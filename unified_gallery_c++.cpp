@@ -33,6 +33,8 @@ void luasSegitiga() {
     luas = (0.5) * alas * tinggi;
 
     cout << "\n Jadi luasnya adalah: " << luas;
+
+    cin.get();
     
 }
 
@@ -129,6 +131,7 @@ int main() {
         cout << "\n ERROR: Program not found \n";
         break;
 
+    cin.get();
     return 0;
     }
 }
