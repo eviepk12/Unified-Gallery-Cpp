@@ -96,13 +96,14 @@ void leapYear() {
 int main() {
     int x; 
 
-    cout << "Type the number for the intended program : \n \n";
+    
     cout << "1. Even number from 1-100 \n";
     cout << "2. Luas Segitiga \n";
     cout << "3. Odd numbers 1-1000 \n";
     cout << "4. Prime Numbers 1-100 \n";
     cout << "5. Leap Years 1900-2050 1-100 \n";
-
+    cout << "Type the number for the intended program : \n \n";
+    
     cin >> x;
 
     switch (x)
