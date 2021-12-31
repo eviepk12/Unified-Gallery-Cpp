@@ -96,7 +96,6 @@ void leapYear() {
 int main() {
     int x; 
 
-    
     cout << "1. Even number from 1-100 \n";
     cout << "2. Luas Segitiga \n";
     cout << "3. Odd numbers 1-1000 \n";
