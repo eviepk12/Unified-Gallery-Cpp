@@ -11,9 +11,9 @@ void evenNumber() {
 
     for (int i = 1; i<=nomor; i++)
     {
-        if (i % 2 == 0) // == 0 means that if i is completely divisible by 2 to execute the print command next,
-         if not         // then execute the loop again
-            cout << i << " ";
+        if (i % 2 == 0)         // == 0 means that if i is completely divisible by 2 to execute the print command next,
+            cout << i << " ";   // if not then execute the loop again
+            
     }
 
     cin.get();
